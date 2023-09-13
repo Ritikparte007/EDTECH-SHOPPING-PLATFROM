@@ -1,0 +1,251 @@
+.joincourse{
+
+    /* border: 2px solid red; */
+    padding-bottom: 20px;
+}
+.joincourse h1{
+    font-size: 25px;
+    margin-top: 5px;
+    padding-bottom: 20px;
+}
+.containercourse{
+
+    border: 2px solid rgb(201, 202, 201);
+    width: 15%;
+    height: 310px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px 5px #8c8c9f;
+    border-radius: 5px;
+    
+}
+.containercourses{
+
+    
+    /* border: 2px solid rgb(11, 220, 11); */
+    border: 2px solid rgb(201, 202, 201);
+    width: 17%;
+    height: 340px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px  #8c8c9f;
+
+
+}
+.gold{
+
+    /* border: 2px solid blue;   */
+    height: 250px;
+    width: 100%;
+    /* background-image: radial-gradient( circle 763px at 18.3% 24.1%,  rgba(255,249,137,1) 7.4%, rgba(226,183,40,1) 58.3% ); */
+}
+.bronze{
+
+    /* border: 2px solid blue; */
+    height: 250px;
+    width: 100%;
+    /* margin-left: 10px; */
+    /* box-shadow: 2px 2px rgb(204, 202, 202); */
+    /* background-color: #FBAB7E; */
+/* background-image: linear-gradient(62deg, #FBAB7E 0%, #c0a66e 100%); */
+
+    /* background-image: radial-gradient( circle 763px at 18.3% 24.1%,  rgba(255,249,137,1) 7.4%, rgba(226,183,40,1) 58.3% ); */
+}
+.bronze h2{
+    font-size: 20px;
+}
+.silver{
+
+    /* border: 2px solid blue; */
+    height: 250px;
+    width: 100%;
+    /* background-color: #09bb5f; */
+    /* background-image: linear-gradient(135deg, #cdcfd0 0%, #8c8c9f 50%, #d9d1d1 100%); */
+    
+}
+.silver h2{
+    font-size: 20px;
+}
+
+
+.goldradius{
+
+    /* border: 2px solid black;    */
+    width: 100%;    
+    height: 210px;
+    border-radius: 5px;
+   
+    display: flex;
+    justify-content: center;
+}
+.goldradius img{
+
+    height: 200px;
+    margin-top: 5px;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+.gold h2{
+    font-size: 20px;
+}
+
+.silverradius{
+
+    /* border: 2px solid black; */
+    /* height: 200px; */
+    border-radius: 5px;
+}
+
+.silverradius img{
+    height: 200px;
+    width: 100%;
+    margin-top: 6px;
+
+}
+.silverradius img{
+    height: 200px;
+    width: 100%;
+    margin-top: 6px;
+
+}
+.goldradius ul{
+
+    list-style: none;
+    font-weight: 500;
+
+}
+.silverradius ul{
+
+    list-style: none;
+    font-weight: 500;
+
+}
+.bronze ul{
+
+    list-style: none;
+
+}
+.price123{
+    margin-top: 5px;
+}
+
+
+.containercourse:hover{
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+.containercourse button{
+
+    width: 100%;
+   background-color: rgb(66, 66, 184);
+   color: white;
+   height: 25px;
+   border-radius: 5px;
+
+}
+
+
+.containercourse button a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.containercourses button{
+
+    width: 100%;
+   background-color: rgb(66, 66, 184);
+   color: white;
+   height: 25px;
+   border-radius: 5px;
+
+}
+.btn{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 6px;
+}
+.btn1{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: px;
+}
+.btn a{
+    font-weight: 500;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    /* background-color: rgb(43, 43, 141); */
+    background-color: #006A4E;
+    border-radius: 3px;
+}
+
+.btn1 a{
+    font-weight: 500;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(43, 43, 141);
+    border-radius: 2px;
+}
+
+.containercourses button a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.silvercon{
+    display: flex;
+    justify-content: center;
+}
+.btn012{
+    padding-top: 5px;
+}
+
+@media only screen and (max-width: 568px) {
+
+    .silvercon{
+        display:block;
+        justify-content: center;
+    }
+    .containercourse{
+        width: 80%;
+        margin-left: 30px;
+        height: 340px;
+    }
+    .containercourses{
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 30px;
+        height: 340px;
+    }
+    .bronze{
+        width: 100%;
+    }
+    .btn012{
+        padding-top: 35px;
+    }
+    .price123{
+        margin-top: 32px;
+    }
+    .goldradius img{
+
+        height: 245px;
+        
+       
+        /* border: 2px solid green; */
+    }
+    .btn a{
+        height: 27px;
+    }
+
+}

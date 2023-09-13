@@ -1,0 +1,39 @@
+.main{
+
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: #ff783d;
+    /* background-image: linear-gradient( 109.6deg,  rgba(61,131,97,1) 11.2%, rgba(28,103,88,1) 91.1% ); */
+}
+.main h1{
+
+    color: white;
+}
+.main span{
+    color: white;
+}
+.heading{
+
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 568px) {
+
+    .main{
+        height: 250px;
+    }
+    .heading{
+        margin-top: 50px;
+    }
+    .main h1{
+        margin-left: 20px;
+    }
+    .main span{
+       margin-left: 20px;
+    }
+
+
+
+}

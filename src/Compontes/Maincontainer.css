@@ -1,0 +1,30 @@
+.video{
+
+    height: 330px;
+    border: 2px solid red;
+    width: 30%;
+    margin-top: 50px;
+  
+
+}
+.containerstorevideo{
+    display: flex;
+    justify-content: center;
+
+}
+.startvideo{
+    display: flex;
+    justify-content: center;
+}
+
+.startvideo button{
+
+    width: 25%;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 5px;
+
+
+
+
+}

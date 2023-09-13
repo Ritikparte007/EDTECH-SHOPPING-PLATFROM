@@ -1,0 +1,84 @@
+.Aboutus-12{
+
+    /* border: 2px solid red; */
+    height: 1400px;
+
+}
+.headingabout{
+
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px
+
+}
+
+.headingabout h1{
+    font-size: 25px;
+}
+.aboutus-123{
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Containerabout123{
+    /* border: 2px solid black; */
+    width: 50%;
+    padding-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(236, 236, 236);
+    box-shadow: 5px 5px 5px 5px rgb(157, 150, 150);
+}
+.Containerabout123 h1{
+    font-size: 25px;
+    margin-top: 5px;
+
+}
+.Containerabout123 h2{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.Containerabout123 p{
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.inputfield{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    font-weight: 500;
+}
+.inputfield input{
+    margin-left: 10px;
+    height: 30px;
+    width: 400px;
+    margin-top: 5px;
+}
+.inputfield textarea{
+    margin-left: 30px;
+}
+.btnsubmit{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.btnsubmit button{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 568px){
+
+    .Containerabout123{
+        width: 80%;
+    }
+    .Aboutus-12{
+        height: 2400px;
+    }
+    .inputfield input{
+        width: 9    0%;
+    }
+
+
+}

@@ -1,0 +1,74 @@
+.Accounts{
+    
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(249,232,51,1) 0%, rgba(250,196,59,1) 100.2% ); */
+    /* background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% ); */
+    /* background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% ); */
+     /* border: 2px solid red; */
+     width: 13%;
+     height: 700px;
+    
+}
+.mainsidebar{
+    /* border: 2px solid black; */
+
+}
+
+.mainsidebar button{
+
+  
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% ); */
+    height: 40px;
+    color: rgb(1, 1, 1);
+    font-weight: 600;
+    width: 100%;
+    /* border-radius: 2px; */
+}
+.linkss{
+
+    /* margin-top: 10px; */
+    /* border-top: 2px solid white; */
+    display: flex;
+    justify-content: center;
+}
+.courselist{
+    height: 750px;
+    /* border: 2px solid green; */
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(227, 225, 225); */
+}
+.acadd{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 100%;
+   
+}
+.coursevideo{
+    height: 700px;
+    /* border: 2px solid green; */
+    width: 100%;
+    /* background-color: rgb(227, 225, 225); */
+    display: none;
+   
+
+}
+.userrefael{
+    height: 700px;
+    /* border: 2px solid green; */
+    width: 100%;
+    
+    display: none;
+   
+    /* background-color: rgb(227, 225, 225); */
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+
+
+}
+
+@media only screen and (max-width: 568px){
+    .Accounts{
+        display: none;
+    }
+}

@@ -1,0 +1,96 @@
+.containerss{
+
+    /* border: 2px solid red; */
+  
+    /* margin-top: 100px; */
+    width: 100%;
+    /* margin-left: 20px; */
+    margin-top: 10px;
+}
+.containerss input{
+    margin-left: 20px;
+    width: 70%;
+    height: 30px;
+    border-style: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    border-color: rgb(66, 4, 152);
+  
+   border-color: #ff783d;
+   
+}
+.containerss label{
+
+    margin-left: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+   
+}
+.mainconataiers-1{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+.maincontainers-2{
+
+    display: flex;
+    /* border: 2px solid black; */
+    background-color: rgb(238, 235, 235);
+    box-shadow: 5px 5px 10px 10px rgb(218, 213, 213);
+    width: 50%;
+    justify-content: center;
+    margin-top: 80px;
+    border-radius: 10px;
+    height: 500px;
+    padding-top: 10px;
+}
+.image img{
+
+     /* border: 2px solid red; */
+    width: 300px;
+     height: 300px;
+     margin-top: 20px;           
+     margin-left: 20px;
+}
+.heading-12{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding-bottom: 10px;
+    
+}
+.inputbox{
+    /* border: 2px solid blue; */
+    margin-top: 10px;
+}
+.submitbtn{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.submitbtn button{
+    background-color: #ff783d;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+}
+@media only screen and (max-width: 568px) {
+
+
+    .maincontainers-2{
+
+        display: block;
+        width: 90%;
+        height: 800px;
+        /* border: 2px solid green; */
+        padding-left: 30px;
+    }
+    .image img{
+        margin-top: 5px;
+        /* margin-left: 40px; */
+        height: 200px;
+        width: 270px;
+    }
+
+}

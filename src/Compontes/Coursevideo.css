@@ -1,0 +1,22 @@
+.video-1{
+  /* border: 2px solid red; */
+  margin-top: 70px;
+  color: white;
+}
+.videos-12{
+    display: flex;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+    justify-content: center;
+    height: 700px;
+}
+.videos23{
+    border: 2px solid black;
+    width: 20%;
+    margin-left: 10px;
+}
+.videos23 video{
+    width: 100px;
+}
+.videos23  a{
+    border: 2px solid red;
+}

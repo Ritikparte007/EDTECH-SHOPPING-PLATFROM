@@ -1,0 +1,31 @@
+.Qutos{
+
+    background-image: linear-gradient( 109.6deg,  rgba(61,131,97,1) 11.2%, rgba(28,103,88,1) 91.1% );
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.qutos1{
+
+    color: white;
+    width: 70%;
+}
+.qutos1 h1{
+    margin-top: 10px;
+    padding-bottom: 20px;
+
+}
+.qutos1 span{
+
+    margin-top: 20px;
+} 
+
+@media only screen and (max-width: 568px) {
+    .qutos1 span{
+        display: none;
+    }
+    .qutos1 h1{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+}

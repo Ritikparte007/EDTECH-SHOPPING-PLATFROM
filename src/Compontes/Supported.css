@@ -1,0 +1,39 @@
+.Supporded{
+    /* border: 2px solid red; */
+
+}
+
+.Supporded h1{
+    display: flex;
+    justify-content: center;
+}
+.supportedplatfrom{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.supportedplatfrom img{
+    box-shadow: 5px 5px 10px 10px rgb(210, 210, 210);
+    height: 130px;
+    /* border: 2px solid black; */
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 360px){
+
+    .supportedplatfrom{
+        /* border: 2px solid green; */
+      /* margin-left: 50px; */
+      overflow-x: auto;
+      width: 100%;
+      /* border: 2px solid red; */
+    }
+    .supportedplatfrom img{
+
+        margin-left: 10px;
+       
+    }
+
+}
