@@ -1,2 +1,1 @@
-# ritikboss
- my project
+# EDTECH SHOPPING PLATFROM 
